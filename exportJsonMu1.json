@@ -1,0 +1,227 @@
+{
+   "curation_sessions" : {
+      "686b127530c39817" : {
+         "alleles" : {
+            "O13407:686b127530c39817-1" : {
+               "allele_type" : "deletion",
+               "gene" : "Magnaporthe grisea O13407",
+               "name" : "ABC1delta",
+               "primary_identifier" : "O13407:686b127530c39817-1",
+               "synonyms" : []
+            }
+         },
+         "annotations" : [
+            {
+               "conditions" : [
+                  "PECO:0000005"
+               ],
+               "creation_date" : "2019-06-29",
+               "curator" : {
+                  "community_curated" : false,
+                  "email" : "martin.urban@rothamsted.ac.uk",
+                  "name" : "Marti Urban"
+               },
+               "evidence_code" : "Functional test in host",
+               "extension" : [
+                  {
+                     "rangeDisplayName" : "final leaf",
+                     "rangeType" : "Ontology",
+                     "rangeValue" : "BTO:0002812",
+                     "relation" : "infects_tissue"
+                  }
+               ],
+               "metagenotype" : "686b127530c39817-metagenotype-1",
+               "publication" : "PMID:9927411",
+               "status" : "new",
+               "submitter_comment" : "Fig 1",
+               "term" : "PHIPO:0000015",
+               "type" : "pathogen_host_interaction_phenotype"
+            },
+            {
+               "conditions" : [],
+               "creation_date" : "2019-06-29",
+               "curator" : {
+                  "community_curated" : false,
+                  "email" : "martin.urban@rothamsted.ac.uk",
+                  "name" : "Marti Urban"
+               },
+               "evidence_code" : "EXP",
+               "extension" : [],
+               "gene" : "Magnaporthe grisea O13407",
+               "publication" : "PMID:9927411",
+               "status" : "new",
+               "submitter_comment" : "S fig 2",
+               "term" : "GO:0015462",
+               "term_suggestion" : {
+                  "definition" : "important for resistance to chemicals",
+                  "name" : "Drug efflux pump"
+               },
+               "type" : "molecular_function"
+            },
+            {
+               "conditions" : [],
+               "creation_date" : "2019-06-29",
+               "curator" : {
+                  "community_curated" : false,
+                  "email" : "martin.urban@rothamsted.ac.uk",
+                  "name" : "Marti Urban"
+               },
+               "evidence_code" : "EXP",
+               "extension" : [
+                  {
+                     "rangeDisplayName" : "cellular response to brefeldin A",
+                     "rangeType" : "Ontology",
+                     "rangeValue" : "GO:0071238",
+                     "relation" : "part_of"
+                  }
+               ],
+               "gene" : "Magnaporthe grisea O13407",
+               "publication" : "PMID:9927411",
+               "status" : "new",
+               "submitter_comment" : "Table S3",
+               "term" : "GO:0042626",
+               "type" : "molecular_function"
+            },
+            {
+               "conditions" : [],
+               "creation_date" : "2019-06-29",
+               "curator" : {
+                  "community_curated" : false,
+                  "email" : "martin.urban@rothamsted.ac.uk",
+                  "name" : "Marti Urban"
+               },
+               "evidence_code" : "EXP",
+               "extension" : [],
+               "gene" : "Magnaporthe grisea O13407",
+               "publication" : "PMID:9927411",
+               "status" : "new",
+               "term" : "GO:0042908",
+               "type" : "biological_process"
+            }
+         ],
+         "genes" : {
+            "Magnaporthe grisea O13407" : {
+               "organism" : "Magnaporthe grisea",
+               "uniquename" : "O13407"
+            }
+         },
+         "genotypes" : {
+            "686b127530c39817-genotype-1" : {
+               "loci" : [
+                  [
+                     {
+                        "id" : "O13407:686b127530c39817-1"
+                     }
+                  ]
+               ],
+               "organism_taxonid" : 148305
+            },
+            "Oryza-sativa-wild-type-genotypeSeraceltik" : {
+               "loci" : [],
+               "organism_taxonid" : 4530
+            }
+         },
+         "metadata" : {
+            "accepted_timestamp" : "2019-06-29 09:48:42",
+            "annotation_status" : "NEEDS_APPROVAL",
+            "annotation_status_datestamp" : "2019-06-29 14:22:42",
+            "canto_session" : "686b127530c39817",
+            "curation_accepted_date" : "2019-06-29 09:48:42",
+            "curation_in_progress_timestamp" : "2019-06-29 09:50:03",
+            "curation_pub_id" : "PMID:9927411",
+            "curator_email" : "martin.urban@rothamsted.ac.uk",
+            "curator_name" : "Marti Urban",
+            "curator_role" : "PHI-base",
+            "needs_approval_timestamp" : "2019-06-29 14:22:42",
+            "session_created_timestamp" : "2019-06-29 09:48:12",
+            "session_first_submitted_timestamp" : "2019-06-29 14:22:42",
+            "session_genes_count" : "1",
+            "session_term_suggestions_count" : "1",
+            "session_unknown_conditions_count" : "0",
+            "term_suggestion_count" : "1",
+            "unknown_conditions_count" : "0"
+         },
+         "metagenotypes" : {
+            "686b127530c39817-metagenotype-1" : {
+               "host_genotype" : "Oryza-sativa-wild-type-genotypeSeraceltik",
+               "pathogen_genotype" : "686b127530c39817-genotype-1"
+            }
+         },
+         "organisms" : {
+            "148305" : {
+               "full_name" : "Magnaporthe grisea"
+            },
+            "4530" : {
+               "full_name" : "Oryza sativa"
+            }
+         },
+         "publications" : {
+            "PMID:9927411" : {
+               "title" : "An ATP-driven efflux pump is a novel pathogenicity factor in rice blast disease."
+            }
+         }
+      }
+   },
+   "labs" : {},
+   "people" : {
+      "martin.urban@rothamsted.ac.uk" : {
+         "lab" : null,
+         "name" : "Marti Urban",
+         "orcid" : "martin.urban@rothamsted.ac.uk",
+         "password" : "W6ph5Mm5Pz8GgiULbPgzG37mj9g",
+         "role" : "admin"
+      },
+      "test@example.org" : {
+         "lab" : null,
+         "name" : "Test",
+         "orcid" : null,
+         "password" : null,
+         "role" : "user"
+      },
+      "test@rothamsted.ac.uk" : {
+         "lab" : null,
+         "name" : "Susan Testuser",
+         "orcid" : "0000-0003",
+         "password" : "zKxxxs2CA0823K+oxN8KsR6VCQY",
+         "role" : "admin"
+      },
+      "testuser@pombase.org" : {
+         "lab" : null,
+         "name" : "Susan Testuser",
+         "orcid" : "0000-0001",
+         "password" : "I5SpZhqQiSCMHJxlzKyFqR2mqFk",
+         "role" : "admin"
+      }
+   },
+   "publications" : {
+      "PMID:100900" : {
+         "abstract" : "",
+         "added_date" : "2019-06-19 10:32:01",
+         "affiliation" : "",
+         "authors" : "Guiney PD, Yang KH, Seymour JL, Peterson RE",
+         "citation" : "Toxicol. Appl. Pharmacol. 1978 Aug;45(2):403-14",
+         "corresponding_author" : null,
+         "curation_statuses" : [],
+         "properties" : [],
+         "publication_date" : "Aug 1978",
+         "title" : "Effects of 2,3,7,8-tetrachlorodibenzo-p-dioxin on the distribution and biliary excretion of polychlorinated biphenyls in rats.",
+         "triage_status" : "Curatable",
+         "type" : "unknown"
+      },
+      "PMID:9927411" : {
+         "abstract" : "Cells tolerate exposure to cytotoxic compounds through the action of ATP-driven efflux pumps belonging to the ATP-binding cassette (ABC) superfamily of membrane transporters. Phytopathogenic fungi encounter toxic environments during plant invasion as a result of the plant defense response. Here we demonstrate the requirement for an ABC transporter during host infection by the fungal plant pathogen Magnaporthe grisea. The ABC1 gene was identified in an insertional mutagenesis screen for pathogenicity mutants. The ABC1 insertional mutant and a gene-replacement mutant arrest growth and die shortly after penetrating either rice or barley epidermal cells. The ABC1-encoded protein is similar to yeast ABC transporters implicated in multidrug resistance, and ABC1 gene transcripts are inducible by toxic drugs and a rice phytoalexin. However, abc1 mutants are not hypersensitive to antifungal compounds. The non-pathogenic, insertional mutation in ABC1 occurs in the promoter region and dramatically reduces transcript induction by metabolic poisons. These data strongly suggest that M.grisea requires the up-regulation of specific ABC transporters for pathogenesis; most likely to protect itself against plant defense mechanisms.",
+         "added_date" : "2019-06-23 13:50:07",
+         "affiliation" : null,
+         "authors" : "Urban M, Bhargava T, Hamer JE",
+         "citation" : "EMBO J. 1999 Feb 01;18(3):512-21",
+         "corresponding_author" : null,
+         "curation_statuses" : [],
+         "properties" : [],
+         "publication_date" : "01 Feb 1999",
+         "title" : "An ATP-driven efflux pump is a novel pathogenicity factor in rice blast disease.",
+         "triage_status" : "Curatable",
+         "type" : "unknown"
+      }
+   }
+}
+
